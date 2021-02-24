@@ -1,0 +1,6 @@
+framework module Pods_SpeechEvaluation_SpeechEvaluationUITests {
+  umbrella header "Pods-SpeechEvaluation-SpeechEvaluationUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

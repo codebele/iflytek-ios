@@ -1,0 +1,1020 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071B48D325E529EC00014845 /* xiaoai_Novel.jet in Resources */ = {isa = PBXBuildFile; fileRef = 071B48CD25E529EC00014845 /* xiaoai_Novel.jet */; };
+		071B48D425E529EC00014845 /* yifeng.jet in Resources */ = {isa = PBXBuildFile; fileRef = 071B48CE25E529EC00014845 /* yifeng.jet */; };
+		071B48D525E529EC00014845 /* common.jet in Resources */ = {isa = PBXBuildFile; fileRef = 071B48CF25E529EC00014845 /* common.jet */; };
+		071B48D625E529EC00014845 /* common_en.jet in Resources */ = {isa = PBXBuildFile; fileRef = 071B48D025E529EC00014845 /* common_en.jet */; };
+		071B48D725E529EC00014845 /* xiaofeng.jet in Resources */ = {isa = PBXBuildFile; fileRef = 071B48D125E529EC00014845 /* xiaofeng.jet */; };
+		071B48D825E529EC00014845 /* xiaoyan.jet in Resources */ = {isa = PBXBuildFile; fileRef = 071B48D225E529EC00014845 /* xiaoyan.jet */; };
+		071B48FA25E52A0A00014845 /* PcmPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 071B48E125E52A0A00014845 /* PcmPlayer.m */; };
+		071B48FB25E52A0A00014845 /* ISEResultSyll.m in Sources */ = {isa = PBXBuildFile; fileRef = 071B48E325E52A0A00014845 /* ISEResultSyll.m */; };
+		071B48FC25E52A0A00014845 /* ISEResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 071B48E425E52A0A00014845 /* ISEResult.m */; };
+		071B48FD25E52A0A00014845 /* ISEResultReadSyllable.m in Sources */ = {isa = PBXBuildFile; fileRef = 071B48E525E52A0A00014845 /* ISEResultReadSyllable.m */; };
+		071B48FE25E52A0A00014845 /* ISEResultReadSentence.m in Sources */ = {isa = PBXBuildFile; fileRef = 071B48E725E52A0A00014845 /* ISEResultReadSentence.m */; };
+		071B48FF25E52A0A00014845 /* ISEResultReadWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 071B48E825E52A0A00014845 /* ISEResultReadWord.m */; };
+		071B490025E52A0A00014845 /* ISEResultPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 071B48E925E52A0A00014845 /* ISEResultPhone.m */; };
+		071B490125E52A0A00014845 /* ISEResultSentence.m in Sources */ = {isa = PBXBuildFile; fileRef = 071B48EA25E52A0A00014845 /* ISEResultSentence.m */; };
+		071B490225E52A0A00014845 /* ISEResultWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 071B48F425E52A0A00014845 /* ISEResultWord.m */; };
+		071B490325E52A0A00014845 /* ISEResultXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 071B48F525E52A0A00014845 /* ISEResultXmlParser.m */; };
+		071B490425E52A0A00014845 /* ISEResultTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 071B48F625E52A0A00014845 /* ISEResultTools.m */; };
+		071B490525E52A0A00014845 /* ISEResultFinal.m in Sources */ = {isa = PBXBuildFile; fileRef = 071B48F725E52A0A00014845 /* ISEResultFinal.m */; };
+		071B490625E52A0A00014845 /* ISEParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B48F925E52A0A00014845 /* ISEParams.swift */; };
+		071B491725E52BF600014845 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071B491625E52BF600014845 /* AddressBook.framework */; };
+		071B491A25E52C1A00014845 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071B491825E52C1A00014845 /* AudioToolbox.framework */; };
+		071B491B25E52C1A00014845 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071B491925E52C1A00014845 /* AVFoundation.framework */; };
+		071B491F25E52C3000014845 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071B491C25E52C2F00014845 /* CoreLocation.framework */; };
+		071B492025E52C3000014845 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071B491D25E52C3000014845 /* Contacts.framework */; };
+		071B492125E52C3000014845 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071B491E25E52C3000014845 /* CoreGraphics.framework */; };
+		071B492425E52C4800014845 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071B492225E52C4800014845 /* CoreTelephony.framework */; };
+		071B492525E52C4800014845 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071B492325E52C4800014845 /* Foundation.framework */; };
+		071B493D25E52D8100014845 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 071B493C25E52D7A00014845 /* libc++.tbd */; };
+		071B494325E52DA700014845 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 071B494225E52DA700014845 /* libz.tbd */; };
+		071B494825E52E0D00014845 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071B494625E52E0C00014845 /* QuartzCore.framework */; };
+		071B494925E52E0D00014845 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071B494725E52E0C00014845 /* SystemConfiguration.framework */; };
+		071B494B25E52E1D00014845 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071B494A25E52E1D00014845 /* UIKit.framework */; };
+		0742791E25E5223100DE868E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0742791D25E5223100DE868E /* AppDelegate.swift */; };
+		0742792025E5223100DE868E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0742791F25E5223100DE868E /* SceneDelegate.swift */; };
+		0742792525E5223100DE868E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0742792325E5223100DE868E /* Main.storyboard */; };
+		0742792725E5223800DE868E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0742792625E5223800DE868E /* Assets.xcassets */; };
+		0742792A25E5223800DE868E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0742792825E5223800DE868E /* LaunchScreen.storyboard */; };
+		0742793525E5223900DE868E /* SpeechEvaluationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0742793425E5223900DE868E /* SpeechEvaluationTests.swift */; };
+		0742794025E5223900DE868E /* SpeechEvaluationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0742793F25E5223900DE868E /* SpeechEvaluationUITests.swift */; };
+		0742795125E5242A00DE868E /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0742795025E5242A00DE868E /* RecordViewController.swift */; };
+		0742795625E524B100DE868E /* SwiftyWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0742795525E524B100DE868E /* SwiftyWaveView.swift */; };
+		0753786225E63774000D3214 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0753786125E63774000D3214 /* iflyMSC.framework */; };
+		0762BF3C25E626F500EE35A0 /* WavFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0762BF3B25E626F500EE35A0 /* WavFile.swift */; };
+		0762BF4125E6277F00EE35A0 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0762BF4025E6277F00EE35A0 /* UIViewControllerExtensions.swift */; };
+		0762BF4625E627BA00EE35A0 /* stringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0762BF4525E627BA00EE35A0 /* stringExtensions.swift */; };
+		0762BF4B25E62B4A00EE35A0 /* WaveForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0762BF4A25E62B4A00EE35A0 /* WaveForm.swift */; };
+		2F26F312AFA39AC89DD66EC5 /* Pods_SpeechEvaluation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584E3F242F9061F12123630E /* Pods_SpeechEvaluation.framework */; };
+		4F0C2D736B1E4113CCC2882E /* Pods_SpeechEvaluation_SpeechEvaluationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B6DEC0476ACCFC63045F3F /* Pods_SpeechEvaluation_SpeechEvaluationUITests.framework */; };
+		83D9F9EC07AE4749A2E960F5 /* Pods_SpeechEvaluationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1594B41CCF15C3151952F7F7 /* Pods_SpeechEvaluationTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0742793125E5223900DE868E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0742791225E5223100DE868E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0742791925E5223100DE868E;
+			remoteInfo = SpeechEvaluation;
+		};
+		0742793C25E5223900DE868E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0742791225E5223100DE868E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0742791925E5223100DE868E;
+			remoteInfo = SpeechEvaluation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EAFCE1469CC2CC02AFE26E /* Pods-SpeechEvaluation-SpeechEvaluationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechEvaluation-SpeechEvaluationUITests.release.xcconfig"; path = "Target Support Files/Pods-SpeechEvaluation-SpeechEvaluationUITests/Pods-SpeechEvaluation-SpeechEvaluationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		071B48CD25E529EC00014845 /* xiaoai_Novel.jet */ = {isa = PBXFileReference; lastKnownFileType = file; path = xiaoai_Novel.jet; sourceTree = "<group>"; };
+		071B48CE25E529EC00014845 /* yifeng.jet */ = {isa = PBXFileReference; lastKnownFileType = file; path = yifeng.jet; sourceTree = "<group>"; };
+		071B48CF25E529EC00014845 /* common.jet */ = {isa = PBXFileReference; lastKnownFileType = file; path = common.jet; sourceTree = "<group>"; };
+		071B48D025E529EC00014845 /* common_en.jet */ = {isa = PBXFileReference; lastKnownFileType = file; path = common_en.jet; sourceTree = "<group>"; };
+		071B48D125E529EC00014845 /* xiaofeng.jet */ = {isa = PBXFileReference; lastKnownFileType = file; path = xiaofeng.jet; sourceTree = "<group>"; };
+		071B48D225E529EC00014845 /* xiaoyan.jet */ = {isa = PBXFileReference; lastKnownFileType = file; path = xiaoyan.jet; sourceTree = "<group>"; };
+		071B48DF25E52A0A00014845 /* PcmPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PcmPlayer.h; sourceTree = "<group>"; };
+		071B48E025E52A0A00014845 /* PcmPlayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PcmPlayerDelegate.h; sourceTree = "<group>"; };
+		071B48E125E52A0A00014845 /* PcmPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PcmPlayer.m; sourceTree = "<group>"; };
+		071B48E325E52A0A00014845 /* ISEResultSyll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISEResultSyll.m; sourceTree = "<group>"; };
+		071B48E425E52A0A00014845 /* ISEResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISEResult.m; sourceTree = "<group>"; };
+		071B48E525E52A0A00014845 /* ISEResultReadSyllable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISEResultReadSyllable.m; sourceTree = "<group>"; };
+		071B48E625E52A0A00014845 /* ISEResultWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISEResultWord.h; sourceTree = "<group>"; };
+		071B48E725E52A0A00014845 /* ISEResultReadSentence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISEResultReadSentence.m; sourceTree = "<group>"; };
+		071B48E825E52A0A00014845 /* ISEResultReadWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISEResultReadWord.m; sourceTree = "<group>"; };
+		071B48E925E52A0A00014845 /* ISEResultPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISEResultPhone.m; sourceTree = "<group>"; };
+		071B48EA25E52A0A00014845 /* ISEResultSentence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISEResultSentence.m; sourceTree = "<group>"; };
+		071B48EB25E52A0A00014845 /* ISEResultFinal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISEResultFinal.h; sourceTree = "<group>"; };
+		071B48EC25E52A0A00014845 /* ISEResultXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISEResultXmlParser.h; sourceTree = "<group>"; };
+		071B48ED25E52A0A00014845 /* ISEResultTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISEResultTools.h; sourceTree = "<group>"; };
+		071B48EE25E52A0A00014845 /* ISEResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISEResult.h; sourceTree = "<group>"; };
+		071B48EF25E52A0A00014845 /* ISEResultSyll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISEResultSyll.h; sourceTree = "<group>"; };
+		071B48F025E52A0A00014845 /* ISEResultReadSyllable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISEResultReadSyllable.h; sourceTree = "<group>"; };
+		071B48F125E52A0A00014845 /* ISEResultPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISEResultPhone.h; sourceTree = "<group>"; };
+		071B48F225E52A0A00014845 /* ISEResultReadSentence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISEResultReadSentence.h; sourceTree = "<group>"; };
+		071B48F325E52A0A00014845 /* ISEResultReadWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISEResultReadWord.h; sourceTree = "<group>"; };
+		071B48F425E52A0A00014845 /* ISEResultWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISEResultWord.m; sourceTree = "<group>"; };
+		071B48F525E52A0A00014845 /* ISEResultXmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISEResultXmlParser.m; sourceTree = "<group>"; };
+		071B48F625E52A0A00014845 /* ISEResultTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISEResultTools.m; sourceTree = "<group>"; };
+		071B48F725E52A0A00014845 /* ISEResultFinal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISEResultFinal.m; sourceTree = "<group>"; };
+		071B48F825E52A0A00014845 /* ISEResultSentence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISEResultSentence.h; sourceTree = "<group>"; };
+		071B48F925E52A0A00014845 /* ISEParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISEParams.swift; sourceTree = "<group>"; };
+		071B491625E52BF600014845 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		071B491825E52C1A00014845 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		071B491925E52C1A00014845 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		071B491C25E52C2F00014845 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		071B491D25E52C3000014845 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		071B491E25E52C3000014845 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		071B492225E52C4800014845 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		071B492325E52C4800014845 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		071B493C25E52D7A00014845 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		071B494225E52DA700014845 /* libz.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		071B494625E52E0C00014845 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		071B494725E52E0C00014845 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		071B494A25E52E1D00014845 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0742791A25E5223100DE868E /* SpeechEvaluation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechEvaluation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0742791D25E5223100DE868E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0742791F25E5223100DE868E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0742792425E5223100DE868E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0742792625E5223800DE868E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0742792925E5223800DE868E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0742792B25E5223800DE868E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0742793025E5223900DE868E /* SpeechEvaluationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechEvaluationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0742793425E5223900DE868E /* SpeechEvaluationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechEvaluationTests.swift; sourceTree = "<group>"; };
+		0742793625E5223900DE868E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0742793B25E5223900DE868E /* SpeechEvaluationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechEvaluationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0742793F25E5223900DE868E /* SpeechEvaluationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechEvaluationUITests.swift; sourceTree = "<group>"; };
+		0742794125E5223900DE868E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0742795025E5242A00DE868E /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		0742795525E524B100DE868E /* SwiftyWaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyWaveView.swift; sourceTree = "<group>"; };
+		0753786125E63774000D3214 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		0762BF1E25E6120200EE35A0 /* SpeechEvaluation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeechEvaluation-Bridging-Header.h"; sourceTree = "<group>"; };
+		0762BF3B25E626F500EE35A0 /* WavFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WavFile.swift; sourceTree = "<group>"; };
+		0762BF4025E6277F00EE35A0 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		0762BF4525E627BA00EE35A0 /* stringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stringExtensions.swift; sourceTree = "<group>"; };
+		0762BF4A25E62B4A00EE35A0 /* WaveForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveForm.swift; sourceTree = "<group>"; };
+		1594B41CCF15C3151952F7F7 /* Pods_SpeechEvaluationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeechEvaluationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4147AE554925C76ADEC0BFE1 /* Pods-SpeechEvaluationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechEvaluationTests.debug.xcconfig"; path = "Target Support Files/Pods-SpeechEvaluationTests/Pods-SpeechEvaluationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		568D49567A514DE44C88F679 /* Pods-SpeechEvaluation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechEvaluation.release.xcconfig"; path = "Target Support Files/Pods-SpeechEvaluation/Pods-SpeechEvaluation.release.xcconfig"; sourceTree = "<group>"; };
+		584E3F242F9061F12123630E /* Pods_SpeechEvaluation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeechEvaluation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7863A330CE97900A34DBFB /* Pods-SpeechEvaluation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechEvaluation.debug.xcconfig"; path = "Target Support Files/Pods-SpeechEvaluation/Pods-SpeechEvaluation.debug.xcconfig"; sourceTree = "<group>"; };
+		7A0DC354D4F1420C5F58339F /* Pods-SpeechEvaluation-SpeechEvaluationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechEvaluation-SpeechEvaluationUITests.debug.xcconfig"; path = "Target Support Files/Pods-SpeechEvaluation-SpeechEvaluationUITests/Pods-SpeechEvaluation-SpeechEvaluationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6B6DEC0476ACCFC63045F3F /* Pods_SpeechEvaluation_SpeechEvaluationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeechEvaluation_SpeechEvaluationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6C23F6B4E26A67A3B9D882 /* Pods-SpeechEvaluationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechEvaluationTests.release.xcconfig"; path = "Target Support Files/Pods-SpeechEvaluationTests/Pods-SpeechEvaluationTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0742791725E5223100DE868E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071B491B25E52C1A00014845 /* AVFoundation.framework in Frameworks */,
+				071B494825E52E0D00014845 /* QuartzCore.framework in Frameworks */,
+				071B494325E52DA700014845 /* libz.tbd in Frameworks */,
+				071B493D25E52D8100014845 /* libc++.tbd in Frameworks */,
+				0753786225E63774000D3214 /* iflyMSC.framework in Frameworks */,
+				071B494B25E52E1D00014845 /* UIKit.framework in Frameworks */,
+				071B492525E52C4800014845 /* Foundation.framework in Frameworks */,
+				071B491F25E52C3000014845 /* CoreLocation.framework in Frameworks */,
+				071B491725E52BF600014845 /* AddressBook.framework in Frameworks */,
+				071B492125E52C3000014845 /* CoreGraphics.framework in Frameworks */,
+				071B494925E52E0D00014845 /* SystemConfiguration.framework in Frameworks */,
+				071B492425E52C4800014845 /* CoreTelephony.framework in Frameworks */,
+				2F26F312AFA39AC89DD66EC5 /* Pods_SpeechEvaluation.framework in Frameworks */,
+				071B491A25E52C1A00014845 /* AudioToolbox.framework in Frameworks */,
+				071B492025E52C3000014845 /* Contacts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0742792D25E5223900DE868E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D9F9EC07AE4749A2E960F5 /* Pods_SpeechEvaluationTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0742793825E5223900DE868E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0C2D736B1E4113CCC2882E /* Pods_SpeechEvaluation_SpeechEvaluationUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06422CAAAE643F49BD071FB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				071B494A25E52E1D00014845 /* UIKit.framework */,
+				071B494625E52E0C00014845 /* QuartzCore.framework */,
+				071B494725E52E0C00014845 /* SystemConfiguration.framework */,
+				071B494225E52DA700014845 /* libz.tbd */,
+				071B493C25E52D7A00014845 /* libc++.tbd */,
+				071B492225E52C4800014845 /* CoreTelephony.framework */,
+				071B492325E52C4800014845 /* Foundation.framework */,
+				071B491D25E52C3000014845 /* Contacts.framework */,
+				071B491E25E52C3000014845 /* CoreGraphics.framework */,
+				071B491C25E52C2F00014845 /* CoreLocation.framework */,
+				071B491825E52C1A00014845 /* AudioToolbox.framework */,
+				071B491925E52C1A00014845 /* AVFoundation.framework */,
+				071B491625E52BF600014845 /* AddressBook.framework */,
+				584E3F242F9061F12123630E /* Pods_SpeechEvaluation.framework */,
+				D6B6DEC0476ACCFC63045F3F /* Pods_SpeechEvaluation_SpeechEvaluationUITests.framework */,
+				1594B41CCF15C3151952F7F7 /* Pods_SpeechEvaluationTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		071B48CB25E529EC00014845 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				071B48CC25E529EC00014845 /* xtts */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		071B48CC25E529EC00014845 /* xtts */ = {
+			isa = PBXGroup;
+			children = (
+				071B48CD25E529EC00014845 /* xiaoai_Novel.jet */,
+				071B48CE25E529EC00014845 /* yifeng.jet */,
+				071B48CF25E529EC00014845 /* common.jet */,
+				071B48D025E529EC00014845 /* common_en.jet */,
+				071B48D125E529EC00014845 /* xiaofeng.jet */,
+				071B48D225E529EC00014845 /* xiaoyan.jet */,
+			);
+			path = xtts;
+			sourceTree = "<group>";
+		};
+		071B48DC25E52A0A00014845 /* IFLYTEK */ = {
+			isa = PBXGroup;
+			children = (
+				071B48DD25E52A0A00014845 /* tools */,
+				071B48E225E52A0A00014845 /* Results */,
+				071B48F925E52A0A00014845 /* ISEParams.swift */,
+			);
+			path = IFLYTEK;
+			sourceTree = "<group>";
+		};
+		071B48DD25E52A0A00014845 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				071B48DE25E52A0A00014845 /* pcmPlayerCode */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		071B48DE25E52A0A00014845 /* pcmPlayerCode */ = {
+			isa = PBXGroup;
+			children = (
+				071B48DF25E52A0A00014845 /* PcmPlayer.h */,
+				071B48E025E52A0A00014845 /* PcmPlayerDelegate.h */,
+				071B48E125E52A0A00014845 /* PcmPlayer.m */,
+			);
+			path = pcmPlayerCode;
+			sourceTree = "<group>";
+		};
+		071B48E225E52A0A00014845 /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				071B48E325E52A0A00014845 /* ISEResultSyll.m */,
+				071B48E425E52A0A00014845 /* ISEResult.m */,
+				071B48E525E52A0A00014845 /* ISEResultReadSyllable.m */,
+				071B48E625E52A0A00014845 /* ISEResultWord.h */,
+				071B48E725E52A0A00014845 /* ISEResultReadSentence.m */,
+				071B48E825E52A0A00014845 /* ISEResultReadWord.m */,
+				071B48E925E52A0A00014845 /* ISEResultPhone.m */,
+				071B48EA25E52A0A00014845 /* ISEResultSentence.m */,
+				071B48EB25E52A0A00014845 /* ISEResultFinal.h */,
+				071B48EC25E52A0A00014845 /* ISEResultXmlParser.h */,
+				071B48ED25E52A0A00014845 /* ISEResultTools.h */,
+				071B48EE25E52A0A00014845 /* ISEResult.h */,
+				071B48EF25E52A0A00014845 /* ISEResultSyll.h */,
+				071B48F025E52A0A00014845 /* ISEResultReadSyllable.h */,
+				071B48F125E52A0A00014845 /* ISEResultPhone.h */,
+				071B48F225E52A0A00014845 /* ISEResultReadSentence.h */,
+				071B48F325E52A0A00014845 /* ISEResultReadWord.h */,
+				071B48F425E52A0A00014845 /* ISEResultWord.m */,
+				071B48F525E52A0A00014845 /* ISEResultXmlParser.m */,
+				071B48F625E52A0A00014845 /* ISEResultTools.m */,
+				071B48F725E52A0A00014845 /* ISEResultFinal.m */,
+				071B48F825E52A0A00014845 /* ISEResultSentence.h */,
+			);
+			path = Results;
+			sourceTree = "<group>";
+		};
+		0742791125E5223100DE868E = {
+			isa = PBXGroup;
+			children = (
+				0742791C25E5223100DE868E /* SpeechEvaluation */,
+				0742793325E5223900DE868E /* SpeechEvaluationTests */,
+				0742793E25E5223900DE868E /* SpeechEvaluationUITests */,
+				0742791B25E5223100DE868E /* Products */,
+				9AFEAEBBAA3FB83949036051 /* Pods */,
+				06422CAAAE643F49BD071FB1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0742791B25E5223100DE868E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0742791A25E5223100DE868E /* SpeechEvaluation.app */,
+				0742793025E5223900DE868E /* SpeechEvaluationTests.xctest */,
+				0742793B25E5223900DE868E /* SpeechEvaluationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0742791C25E5223100DE868E /* SpeechEvaluation */ = {
+			isa = PBXGroup;
+			children = (
+				0753787125E64B44000D3214 /* Extensions */,
+				0753786025E63774000D3214 /* IFLYTEK FRAMEWORK */,
+				071B48DC25E52A0A00014845 /* IFLYTEK */,
+				071B48CB25E529EC00014845 /* Resource */,
+				0742791D25E5223100DE868E /* AppDelegate.swift */,
+				0742791F25E5223100DE868E /* SceneDelegate.swift */,
+				0742795025E5242A00DE868E /* RecordViewController.swift */,
+				0742792325E5223100DE868E /* Main.storyboard */,
+				0742792625E5223800DE868E /* Assets.xcassets */,
+				0742792825E5223800DE868E /* LaunchScreen.storyboard */,
+				0742792B25E5223800DE868E /* Info.plist */,
+				0762BF1E25E6120200EE35A0 /* SpeechEvaluation-Bridging-Header.h */,
+			);
+			path = SpeechEvaluation;
+			sourceTree = "<group>";
+		};
+		0742793325E5223900DE868E /* SpeechEvaluationTests */ = {
+			isa = PBXGroup;
+			children = (
+				0742793425E5223900DE868E /* SpeechEvaluationTests.swift */,
+				0742793625E5223900DE868E /* Info.plist */,
+			);
+			path = SpeechEvaluationTests;
+			sourceTree = "<group>";
+		};
+		0742793E25E5223900DE868E /* SpeechEvaluationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0742793F25E5223900DE868E /* SpeechEvaluationUITests.swift */,
+				0742794125E5223900DE868E /* Info.plist */,
+			);
+			path = SpeechEvaluationUITests;
+			sourceTree = "<group>";
+		};
+		0753786025E63774000D3214 /* IFLYTEK FRAMEWORK */ = {
+			isa = PBXGroup;
+			children = (
+				0753786125E63774000D3214 /* iflyMSC.framework */,
+			);
+			path = "IFLYTEK FRAMEWORK";
+			sourceTree = "<group>";
+		};
+		0753787125E64B44000D3214 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0742795525E524B100DE868E /* SwiftyWaveView.swift */,
+				0762BF4025E6277F00EE35A0 /* UIViewControllerExtensions.swift */,
+				0762BF4A25E62B4A00EE35A0 /* WaveForm.swift */,
+				0762BF4525E627BA00EE35A0 /* stringExtensions.swift */,
+				0762BF3B25E626F500EE35A0 /* WavFile.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9AFEAEBBAA3FB83949036051 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A7863A330CE97900A34DBFB /* Pods-SpeechEvaluation.debug.xcconfig */,
+				568D49567A514DE44C88F679 /* Pods-SpeechEvaluation.release.xcconfig */,
+				7A0DC354D4F1420C5F58339F /* Pods-SpeechEvaluation-SpeechEvaluationUITests.debug.xcconfig */,
+				00EAFCE1469CC2CC02AFE26E /* Pods-SpeechEvaluation-SpeechEvaluationUITests.release.xcconfig */,
+				4147AE554925C76ADEC0BFE1 /* Pods-SpeechEvaluationTests.debug.xcconfig */,
+				EA6C23F6B4E26A67A3B9D882 /* Pods-SpeechEvaluationTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0742791925E5223100DE868E /* SpeechEvaluation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0742794425E5223900DE868E /* Build configuration list for PBXNativeTarget "SpeechEvaluation" */;
+			buildPhases = (
+				C72CAE3AC21CAA57DA84D2FE /* [CP] Check Pods Manifest.lock */,
+				0742791625E5223100DE868E /* Sources */,
+				0742791725E5223100DE868E /* Frameworks */,
+				0742791825E5223100DE868E /* Resources */,
+				F2FF1BEE71CF8F5AAC364997 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechEvaluation;
+			productName = SpeechEvaluation;
+			productReference = 0742791A25E5223100DE868E /* SpeechEvaluation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0742792F25E5223900DE868E /* SpeechEvaluationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0742794725E5223900DE868E /* Build configuration list for PBXNativeTarget "SpeechEvaluationTests" */;
+			buildPhases = (
+				DAE70B50EF4B8A14759FF076 /* [CP] Check Pods Manifest.lock */,
+				0742792C25E5223900DE868E /* Sources */,
+				0742792D25E5223900DE868E /* Frameworks */,
+				0742792E25E5223900DE868E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0742793225E5223900DE868E /* PBXTargetDependency */,
+			);
+			name = SpeechEvaluationTests;
+			productName = SpeechEvaluationTests;
+			productReference = 0742793025E5223900DE868E /* SpeechEvaluationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0742793A25E5223900DE868E /* SpeechEvaluationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0742794A25E5223900DE868E /* Build configuration list for PBXNativeTarget "SpeechEvaluationUITests" */;
+			buildPhases = (
+				406982D21544F9619597B871 /* [CP] Check Pods Manifest.lock */,
+				0742793725E5223900DE868E /* Sources */,
+				0742793825E5223900DE868E /* Frameworks */,
+				0742793925E5223900DE868E /* Resources */,
+				DE035D20B1B4F53C97430341 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0742793D25E5223900DE868E /* PBXTargetDependency */,
+			);
+			name = SpeechEvaluationUITests;
+			productName = SpeechEvaluationUITests;
+			productReference = 0742793B25E5223900DE868E /* SpeechEvaluationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0742791225E5223100DE868E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					0742791925E5223100DE868E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					0742792F25E5223900DE868E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 0742791925E5223100DE868E;
+					};
+					0742793A25E5223900DE868E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 0742791925E5223100DE868E;
+					};
+				};
+			};
+			buildConfigurationList = 0742791525E5223100DE868E /* Build configuration list for PBXProject "SpeechEvaluation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0742791125E5223100DE868E;
+			productRefGroup = 0742791B25E5223100DE868E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0742791925E5223100DE868E /* SpeechEvaluation */,
+				0742792F25E5223900DE868E /* SpeechEvaluationTests */,
+				0742793A25E5223900DE868E /* SpeechEvaluationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0742791825E5223100DE868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071B48D525E529EC00014845 /* common.jet in Resources */,
+				0742792A25E5223800DE868E /* LaunchScreen.storyboard in Resources */,
+				071B48D625E529EC00014845 /* common_en.jet in Resources */,
+				071B48D825E529EC00014845 /* xiaoyan.jet in Resources */,
+				0742792725E5223800DE868E /* Assets.xcassets in Resources */,
+				071B48D425E529EC00014845 /* yifeng.jet in Resources */,
+				0742792525E5223100DE868E /* Main.storyboard in Resources */,
+				071B48D725E529EC00014845 /* xiaofeng.jet in Resources */,
+				071B48D325E529EC00014845 /* xiaoai_Novel.jet in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0742792E25E5223900DE868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0742793925E5223900DE868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		406982D21544F9619597B871 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeechEvaluation-SpeechEvaluationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C72CAE3AC21CAA57DA84D2FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeechEvaluation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAE70B50EF4B8A14759FF076 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeechEvaluationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE035D20B1B4F53C97430341 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeechEvaluation-SpeechEvaluationUITests/Pods-SpeechEvaluation-SpeechEvaluationUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeechEvaluation-SpeechEvaluationUITests/Pods-SpeechEvaluation-SpeechEvaluationUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpeechEvaluation-SpeechEvaluationUITests/Pods-SpeechEvaluation-SpeechEvaluationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2FF1BEE71CF8F5AAC364997 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeechEvaluation/Pods-SpeechEvaluation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeechEvaluation/Pods-SpeechEvaluation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpeechEvaluation/Pods-SpeechEvaluation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0742791625E5223100DE868E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0762BF4B25E62B4A00EE35A0 /* WaveForm.swift in Sources */,
+				071B48FE25E52A0A00014845 /* ISEResultReadSentence.m in Sources */,
+				071B48FC25E52A0A00014845 /* ISEResult.m in Sources */,
+				071B48FD25E52A0A00014845 /* ISEResultReadSyllable.m in Sources */,
+				071B490025E52A0A00014845 /* ISEResultPhone.m in Sources */,
+				071B48FA25E52A0A00014845 /* PcmPlayer.m in Sources */,
+				0742795625E524B100DE868E /* SwiftyWaveView.swift in Sources */,
+				071B48FF25E52A0A00014845 /* ISEResultReadWord.m in Sources */,
+				0742791E25E5223100DE868E /* AppDelegate.swift in Sources */,
+				071B490125E52A0A00014845 /* ISEResultSentence.m in Sources */,
+				071B490625E52A0A00014845 /* ISEParams.swift in Sources */,
+				071B490225E52A0A00014845 /* ISEResultWord.m in Sources */,
+				0742792025E5223100DE868E /* SceneDelegate.swift in Sources */,
+				0762BF4125E6277F00EE35A0 /* UIViewControllerExtensions.swift in Sources */,
+				0762BF3C25E626F500EE35A0 /* WavFile.swift in Sources */,
+				071B490325E52A0A00014845 /* ISEResultXmlParser.m in Sources */,
+				071B48FB25E52A0A00014845 /* ISEResultSyll.m in Sources */,
+				0762BF4625E627BA00EE35A0 /* stringExtensions.swift in Sources */,
+				071B490425E52A0A00014845 /* ISEResultTools.m in Sources */,
+				0742795125E5242A00DE868E /* RecordViewController.swift in Sources */,
+				071B490525E52A0A00014845 /* ISEResultFinal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0742792C25E5223900DE868E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0742793525E5223900DE868E /* SpeechEvaluationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0742793725E5223900DE868E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0742794025E5223900DE868E /* SpeechEvaluationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0742793225E5223900DE868E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0742791925E5223100DE868E /* SpeechEvaluation */;
+			targetProxy = 0742793125E5223900DE868E /* PBXContainerItemProxy */;
+		};
+		0742793D25E5223900DE868E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0742791925E5223100DE868E /* SpeechEvaluation */;
+			targetProxy = 0742793C25E5223900DE868E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0742792325E5223100DE868E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0742792425E5223100DE868E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0742792825E5223800DE868E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0742792925E5223800DE868E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0742794225E5223900DE868E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0742794325E5223900DE868E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0742794525E5223900DE868E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A7863A330CE97900A34DBFB /* Pods-SpeechEvaluation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LT8U492WJ3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/SpeechEvaluation/IFLYTEK\\ FRAMEWORK",
+					"$(PROJECT_DIR)/SpeechEvaluation/IFLYTEK\\ FRAMEWORK",
+					"$(PROJECT_DIR)/SpeechEvaluation/IFLYTEK\\ FRAMEWORK",
+					"$(PROJECT_DIR)/SpeechEvaluation/IFLYTEK\\ FRAMEWORK",
+					"$(PROJECT_DIR)/SpeechEvaluation/Frameworks",
+					"$(PROJECT_DIR)/SpeechEvaluation/IFLYTEK\\ FRAMEWORK",
+				);
+				INFOPLIST_FILE = SpeechEvaluation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebele.SpeechEvaluation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpeechEvaluation/SpeechEvaluation-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0742794625E5223900DE868E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 568D49567A514DE44C88F679 /* Pods-SpeechEvaluation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LT8U492WJ3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/SpeechEvaluation/IFLYTEK\\ FRAMEWORK",
+					"$(PROJECT_DIR)/SpeechEvaluation/IFLYTEK\\ FRAMEWORK",
+					"$(PROJECT_DIR)/SpeechEvaluation/IFLYTEK\\ FRAMEWORK",
+					"$(PROJECT_DIR)/SpeechEvaluation/IFLYTEK\\ FRAMEWORK",
+					"$(PROJECT_DIR)/SpeechEvaluation/Frameworks",
+					"$(PROJECT_DIR)/SpeechEvaluation/IFLYTEK\\ FRAMEWORK",
+				);
+				INFOPLIST_FILE = SpeechEvaluation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebele.SpeechEvaluation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpeechEvaluation/SpeechEvaluation-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0742794825E5223900DE868E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4147AE554925C76ADEC0BFE1 /* Pods-SpeechEvaluationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SpeechEvaluationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebele.SpeechEvaluationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeechEvaluation.app/SpeechEvaluation";
+			};
+			name = Debug;
+		};
+		0742794925E5223900DE868E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6C23F6B4E26A67A3B9D882 /* Pods-SpeechEvaluationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SpeechEvaluationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebele.SpeechEvaluationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeechEvaluation.app/SpeechEvaluation";
+			};
+			name = Release;
+		};
+		0742794B25E5223900DE868E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0DC354D4F1420C5F58339F /* Pods-SpeechEvaluation-SpeechEvaluationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeechEvaluationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebele.SpeechEvaluationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeechEvaluation;
+			};
+			name = Debug;
+		};
+		0742794C25E5223900DE868E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00EAFCE1469CC2CC02AFE26E /* Pods-SpeechEvaluation-SpeechEvaluationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeechEvaluationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebele.SpeechEvaluationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeechEvaluation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0742791525E5223100DE868E /* Build configuration list for PBXProject "SpeechEvaluation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0742794225E5223900DE868E /* Debug */,
+				0742794325E5223900DE868E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0742794425E5223900DE868E /* Build configuration list for PBXNativeTarget "SpeechEvaluation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0742794525E5223900DE868E /* Debug */,
+				0742794625E5223900DE868E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0742794725E5223900DE868E /* Build configuration list for PBXNativeTarget "SpeechEvaluationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0742794825E5223900DE868E /* Debug */,
+				0742794925E5223900DE868E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0742794A25E5223900DE868E /* Build configuration list for PBXNativeTarget "SpeechEvaluationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0742794B25E5223900DE868E /* Debug */,
+				0742794C25E5223900DE868E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0742791225E5223100DE868E /* Project object */;
+}

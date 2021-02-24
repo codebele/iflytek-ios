@@ -1,0 +1,28 @@
+PODS:
+  - Starscream (4.0.4)
+  - SwiftyXMLParser (5.1.0)
+
+DEPENDENCIES:
+  - Starscream (~> 4.0.0)
+  - SwiftyXMLParser (from `https://github.com/yahoojapan/SwiftyXMLParser.git`)
+
+SPEC REPOS:
+  trunk:
+    - Starscream
+
+EXTERNAL SOURCES:
+  SwiftyXMLParser:
+    :git: https://github.com/yahoojapan/SwiftyXMLParser.git
+
+CHECKOUT OPTIONS:
+  SwiftyXMLParser:
+    :commit: ec7f183642adf429babd867d1a38c5c6912408ba
+    :git: https://github.com/yahoojapan/SwiftyXMLParser.git
+
+SPEC CHECKSUMS:
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SwiftyXMLParser: 23b5a9321a8adf72aae29046ea58c3d097b4ac17
+
+PODFILE CHECKSUM: e517b91444a0ef42a6cb18f1f56ae9e64a7367e5
+
+COCOAPODS: 1.10.1
